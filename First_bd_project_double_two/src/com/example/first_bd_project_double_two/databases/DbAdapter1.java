@@ -65,6 +65,8 @@ public class DbAdapter1
     public void Update(Product p)
     {
     	int a = 0;
+    	
+    	a++;
     }
     public ArrayList<Product> getProducts()
     {
