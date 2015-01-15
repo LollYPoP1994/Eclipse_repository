@@ -62,6 +62,10 @@ public class DbAdapter1
     	long count = db.delete(TABLE_NAME, ID + " = " + id, null);
     	Toast.makeText(context, "count = " + count, Toast.LENGTH_SHORT).show();
     }
+    public void Update(Product p)
+    {
+    	
+    }
     public ArrayList<Product> getProducts()
     {
 String sql = "select * from " + TABLE_NAME;
