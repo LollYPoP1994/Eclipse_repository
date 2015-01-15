@@ -67,6 +67,7 @@ public class DbAdapter1
     	int a = 0;
     	
     	a++;
+    	a++;
     }
     public ArrayList<Product> getProducts()
     {
