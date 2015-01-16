@@ -27,6 +27,7 @@ public class MainActivity extends Activity
 	 ArrayList<Product> list = 	AppContext.dbAdapter1.getProducts();
 	 
 	 int count = list.size();
+	 count++;
 	} 
         
 	@Override
