@@ -1,5 +1,7 @@
 package com.example.first_bd_project_double_two;
 
+import java.util.ArrayList;
+
 import com.example.first_bd_project_double_two.models.Product;
 import com.example.first_bd_project_double_two.objects.AppContext;
 
@@ -22,7 +24,9 @@ public class MainActivity extends Activity
 //		p.Cathegory = 21;
 //		AppContext.dbAdapter1.Add(p);
 		//AppContext.dbAdapter1.Delete(1);
-		AppContext.dbAdapter1.getProducts();
+	 ArrayList<Product> list = 	AppContext.dbAdapter1.getProducts();
+	 
+	 int count = list.size();
 	} 
         
 	@Override
